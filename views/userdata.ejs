@@ -4,8 +4,9 @@
 	<title>Jawbone UP API with Node Demo</title>
 	<style type="text/css">
 		body {
-			background: url(/images/bg-space-purple.jpg) top center #000 no-repeat;
-			background-size: cover;
+            background: #fff; /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left, #5d6d7e , #9daeba); /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to left, #5d6d7e , #9daeba); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 			font-family: Arial, sans-serif;
 			text-align: center;
 		}
@@ -30,7 +31,7 @@
 			padding: 10px 25px;
 		}
 		.btn {
-			background-color: #9D65FF;
+			background-color: #785a66;
 			color: #fff;
 			display: block;
 			font-size: 24px;
@@ -40,8 +41,9 @@
 			width: 40%;
 		}
 		.btn:hover {
-			background-color: #C893FF;
+			background-color: #5d6d7e;
 		}
+	}
 	</style>
 </head>
 <body>
@@ -64,5 +66,6 @@
 	</table>
 
 	<a href="/logout" class="btn">Log out</a>
+    <p><a href="https://getcarina.com"><img src="../public/images/powered-by-carina-square_2x.jpg"/></a></p>
 </body>
 </html>
