@@ -4,8 +4,9 @@
 	<title>Jawbone UP API with Node Demo</title>
 	<style type="text/css">
 		body {
-			background: url(/images/powered-by-carina-square_2x.jpg) top right #000 no-repeat;
-			background-size: cover;
+            background: #fff; /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left, #5d6d7e , #9daeba); /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to left, #5d6d7e , #9daeba); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 			font-family: Arial, sans-serif;
 			text-align: center;
 		}
@@ -14,7 +15,7 @@
 			font-size: 36px;
 		}
 		.btn {
-			background-color: #9D65FF;
+			background-color: #785a66;
 			color: #fff;
 			display: block;
 			font-size: 24px;
@@ -24,12 +25,8 @@
 			width: 40%;
 		}
 		.btn:hover {
-			background-color: #C893FF;
+			background-color: #5d6d7e;
 		}
-
-                background: #4B79A1; /* fallback for old browsers */
-                background: -webkit-linear-gradient(to left, #4B79A1 , #283E51); /* Chrome 10-25, Safari 5.1-6 */
-                background: linear-gradient(to left, #4B79A1 , #283E51); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		p {
 			color: #fff;
 			display: block;
@@ -42,5 +39,6 @@
 	<h1>Jawbone UP Sleep Data</h1>
 	<p>Log in to see your latest sleep data.</p>
 	<a href="/login/jawbone" class="btn">Login</a>
+    <a href="https://getcarina.com"><img src="/images/powered-by-carina-square_2x.jpg"/></a>
 </body>
 </html>
